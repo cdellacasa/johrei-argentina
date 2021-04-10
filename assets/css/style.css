@@ -9832,6 +9832,15 @@ textarea:focus {
   margin: 35px 0 24px;
 }
 
+.deal-content-1 h2 {
+  color: rgb(73, 72, 72);
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 60px;
+  letter-spacing: -.25px;
+  margin: 35px 0 24px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .deal-content-1 h2 {
     font-size: 50px;
