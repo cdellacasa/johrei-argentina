@@ -10061,6 +10061,11 @@ textarea:focus {
   border-bottom: 1px solid #ff2f2f;
 }
 
+.btn-outline-primary {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
 @media only screen and (max-width: 767px) {
   .deal-content-1 .deal-btn a {
     font-size: 18px;
