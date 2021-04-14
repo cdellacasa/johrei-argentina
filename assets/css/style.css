@@ -9844,11 +9844,32 @@ textarea:focus {
 
 .deal-content-1 h6 {
   color: rgb(229, 226, 226);
-  font-size: 20;
-  font-weight: 200;
-  line-height: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: -.25px;
+  margin: 15px 0 24px;
+}
+
+.deal-content-1-faq{
+  text-align: center;
+}
+
+.deal-content-1-faq h2{
+  color: rgb(229, 226, 226);
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
   letter-spacing: -.25px;
   margin: 35px 0 24px;
+}
+
+.deal-content-1-faq h3{
+  color: rgb(229, 226, 226);
+  margin-top: 25px;
+}
+
+.deal-content-1-faq p{
+  color: rgb(229, 226, 226);
 }
 
 .deal-content-1-download h2{
@@ -9857,16 +9878,16 @@ textarea:focus {
   font-weight: 300;
   line-height: 60px;
   letter-spacing: -.25px;
-  margin: 35px 0 24px;
+  margin: 25px 0 24px;
 }
 
 .deal-content-1-download h4{
   color: rgb(0, 0, 0);
   font-size: 25px;
   font-weight: 300;
-  line-height: 60px;
+  line-height: 25px;
   letter-spacing: -.25px;
-  margin: 35px 0 24px;
+  margin: 25px 0 24px;
 }
 
 .deal-content-1-download h5{
@@ -9882,22 +9903,54 @@ textarea:focus {
     font-size: 50px;
     line-height: 55px;
     margin: 25px 0 14px;
+    text-align: center;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .deal-content-1 h2 {
+    font-weight: 400;
     font-size: 50px;
     line-height: 55px;
     margin: 25px 0 14px;
+    text-align: center;
   }
 }
 
 @media only screen and (max-width: 767px) {
+  .deal-content-1{
+    text-align: center;
+  }
+
   .deal-content-1 h2 {
-    font-size: 34px;
+    font-weight: 400;
+    font-size: 44px;
     line-height: 40px;
+    margin: 40px 40px;
+  }
+
+  .deal-content-1 h3 {
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 35px;
     margin: 25px 0 14px;
+    margin-bottom: 30px;
+  }
+
+  .deal-content-1-download{
+    text-align: center;
+  }
+
+  #meishu-sama{
+    width: 300px;
+  }
+
+  #footer-address{
+    text-align: center!important; 
+  }
+
+  #footer-social-media{
+    text-align: center!important; 
   }
 }
 
