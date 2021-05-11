@@ -3474,15 +3474,15 @@ textarea:focus {
 .main-menu.main-menu-hm4 > nav > ul > li > a {
   font-size: 14px;
   font-weight: 400;
-  letter-spacing: .5px;
+  /*   letter-spacing: .5px; */
 }
 
 .main-menu.main-menu-hm4 > nav > ul > li > a.active {
-  font-weight: bold;
+  /*font-weight: bold; */
 }
 
 .main-menu.main-menu-hm4 > nav > ul > li:hover > a {
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #000000;
 }
 
@@ -9910,7 +9910,21 @@ textarea:focus {
   margin: 15px 0 24px;
 }
 
+#queEsJohrei{
+  padding-top: 120px;
+}
+
+#meishu-sama{
+  padding-top: 100px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  
+  #menuMobile{
+    position: absolute;
+    border-bottom: none;
+  }
+  
   .deal-content-1 h2 {
     font-size: 50px;
     line-height: 55px;
@@ -9933,7 +9947,11 @@ textarea:focus {
   }
 
   #meishu-sama{
-    margin-top: 60px;
+    padding-top: 70px;
+  }
+
+  #queEsJohrei{
+    padding-top: 10px;
   }
 
   #download-title{
@@ -9948,6 +9966,12 @@ textarea:focus {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+  #menuMobile{
+    position: absolute;
+    border-bottom: none;
+  }
+  
   .deal-content-1 h2 {
     font-weight: 400;
     font-size: 50px;
@@ -9980,6 +10004,10 @@ textarea:focus {
   #meishu-sama{
     display: none;
   }
+
+  #queEsJohrei{
+    padding-top: 10px;
+  }
   
   #footer-logo{
     width: 50px; 
@@ -9989,6 +10017,16 @@ textarea:focus {
 
 @media only screen and (max-width: 767px) {
   
+#menuMobile{
+    position: absolute;
+    border-bottom: none;
+  }
+
+  .icon-menu{
+    color: white;
+    align-self: flex-end;
+  }
+
   .deal-area{
     padding-top: 100px;
     padding-bottom: 40px;
@@ -10037,8 +10075,11 @@ textarea:focus {
   }
 
   #meishu-sama{
-    width: 290px;
-    text-align: center;
+    display: none;
+  }
+
+  #queEsJohrei{
+    padding-top: 10px;
   }
 
   #footer-logo{
